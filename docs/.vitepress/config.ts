@@ -1,0 +1,61 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: 'Разработка программных модулей',
+  description: 'Курс лекций по Java',
+  lang: 'ru-RU',
+
+
+  themeConfig: {
+    outline: [2, 4],
+    outlineTitle: 'Содержание',
+
+    nav: [
+      { text: 'Базовая Java', link: '/basics/' },
+      { text: 'ООП',          link: '/oop/' },
+      { text: 'Spring',       link: '/spring/' },
+      { text: 'JavaFX',       link: '/javafx/' }
+    ],
+
+    sidebar: {
+      '/basics/': [
+        {
+          text: 'Базовая Java',
+          items: [
+            { text: '0.5. Установка всякого', link: '/basics/install' },
+            { text: '1. Введение', link: '/basics/intro' }
+          ]
+        }
+      ],
+      '/oop/': [
+        {
+          text: 'ООП',
+          items: [
+            { text: 'Обзор раздела', link: '/oop/' }
+          ]
+        }
+      ],
+      '/spring/': [
+        {
+          text: 'Spring',
+          items: [
+            { text: 'Обзор раздела', link: '/spring/' }
+          ]
+        }
+      ],
+      '/javafx/': [
+        {
+          text: 'JavaFX',
+          items: [
+            { text: 'Обзор раздела', link: '/javafx/' }
+          ]
+        }
+      ]
+    },
+
+    docFooter: {
+      prev: 'Предыдущая лекция',
+      next: 'Следующая лекция'
+    },
+  }
+})
