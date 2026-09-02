@@ -1,7 +1,7 @@
 # Установка всякого
 
 Для разработки на Java необходимы:
-1. JDK ([что это?](./intro.md#jdk-java-development-kit-—-набор-разработчика-java))
+1. JDK ([что это?](intro.md#jdk-java-development-kit-—-набор-разработчика-java))
 
 ## Установка JDK
 
