@@ -23,7 +23,8 @@ export default defineConfig({
           text: 'Базовая Java',
           items: [
             { text: '0.5. Установка всякого', link: '/basics/install' },
-            { text: '1. Введение', link: '/basics/intro' }
+            { text: '1. Введение', link: '/basics/intro' },
+            { text: '2. Ветвления. Циклы', link: '/basics/if-else-loops'}
           ]
         }
       ],
