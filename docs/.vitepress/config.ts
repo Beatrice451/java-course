@@ -24,7 +24,8 @@ export default defineConfig({
           items: [
             { text: '0.5. Установка всякого', link: '/basics/install' },
             { text: '1. Введение', link: '/basics/intro' },
-            { text: '2. Ветвления. Циклы', link: '/basics/if-else-loops'}
+            { text: '2. Ветвления. Циклы', link: '/basics/if-else-loops'},
+            { text: '3. Массивы', link: '/basics/arrays'}
           ]
         }
       ],
