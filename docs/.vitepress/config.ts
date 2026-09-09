@@ -27,7 +27,9 @@ export default defineConfig({
             { text: '2. Ветвления. Циклы', link: '/basics/if-else-loops'},
             { text: '3. Массивы', link: '/basics/arrays'},
             { text: '3.5. Приведение типов', link: '/basics/casts'},
-            { text: '4. Методы', link: '/basics/methods'}
+            { text: '4. Методы', link: '/basics/methods'},
+            {text: '4.5. Подробнее о строках', link: '/basics/strings'},
+            {text: '5. Collections Framework', link: '/basics/collections'}
           ]
         }
       ],
