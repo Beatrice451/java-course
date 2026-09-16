@@ -37,7 +37,7 @@ export default defineConfig({
         {
           text: 'ООП',
           items: [
-            { text: 'Обзор раздела', link: '/oop/' }
+            { text: '1. Введение', link: '/oop/basics' }
           ]
         }
       ],
